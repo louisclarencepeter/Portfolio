@@ -25,3 +25,7 @@ blockquote{
     float: left;
     margin: 10px;
 }
+.items{
+    width: 300px;
+    float: left;
+}
