@@ -4,12 +4,24 @@ body {
 h1{
     font-size: 50px;
 }
-.categories { 
+blockquote{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
     margin: 10px;
-    text-align: center;
-    display: flex;
+    padding: 10px;
 }
-.progress {
+.time{
+    clear: both;
+}
+.info{
+    border-top: 1px solid;
     margin: 10px;
-    display: flex;
+    padding: 10px;
+    width: 300px;
+    margin: 10px;
+}
+.categories{
+    width: 300px;
+    float: left;
+    margin: 10px;
 }
