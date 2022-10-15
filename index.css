@@ -24,8 +24,10 @@ blockquote{
     width: 300px;
     float: left;
     margin: 10px;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 300px 300px 300px;
 }
 .items{
     width: 300px;
-    float: left;
 }
