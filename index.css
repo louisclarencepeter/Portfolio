@@ -1,5 +1,5 @@
-body {
-    background-color:rgb(174, 228, 228) ;
+body{
+    background-color:rgb(174, 228, 228);
 }
 h1{
     font-size: 50px;
@@ -26,4 +26,11 @@ blockquote{
 }
 .items{
     width: 300px;
+}
+footer{
+    margin: 100px;
+    text-align: center;
+}
+*{
+    font-family: 'Space Mono' monospace;
 }
