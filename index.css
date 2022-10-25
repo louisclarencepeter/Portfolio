@@ -4,6 +4,7 @@
 }
 p{
     font-family: 'SpaceMono';
+    line-height: 1.5;
 }
 body{
     background-color:rgb(174, 228, 228);
