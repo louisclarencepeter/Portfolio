@@ -29,13 +29,23 @@ blockquote{
     width: 300px;
     margin: 10px;
     display: grid;
-    gap: 1rem;
+    gap: 10px;
     grid-template-columns: repeat(3, 300px);
 }
 .items{
     width: 300px;
+    display: flex;
+}
+.item{
+    margin: 100px;
 }
 footer{
     margin: 100px;
     text-align: center;
+}
+.progress {
+    display: flex;
+}
+.screenshot{
+    padding: 10px;
 }
