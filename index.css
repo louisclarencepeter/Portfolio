@@ -11,7 +11,8 @@ h1{
 }
 .items{
     width: 300px;
-    display: flex;
+    display: grid;
+    flex-direction: row;
 }
 /*All Paragraphs*/
 p{
@@ -33,12 +34,11 @@ blockquote{
     grid-template-columns: repeat(3, 300px);
 }
 /*School and Progress*/
-.progress {
-    display: grid;
+.schoolprogress{
+    display: flex;
+    flex-direction: row;
 }
-.screenshot{
-    padding: 10px;
-}
+
 /*Footer*/
 footer{
     margin: 100px;
