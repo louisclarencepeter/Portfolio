@@ -2,28 +2,28 @@
     font-family: 'SpaceMono';
     src:url(Resources/Space_Mono/SpaceMono-Regular.ttf)
 }
+body{
+    background-color:rgb(174, 228, 228);
+}
+/*Name and Picture*/
+h1{
+    font-size: 50px;
+}
+.items{
+    width: 300px;
+    display: flex;
+}
+/*All Paragraphs*/
 p{
     font-family: 'SpaceMono';
     line-height: 1.5;
 }
-body{
-    background-color:rgb(174, 228, 228);
-}
-h1{
-    font-size: 50px;
-}
+/*Skills*/
 blockquote{
     border-top: 1px solid;
     border-bottom: 1px solid;
     margin: 10px;
     padding: 10px;
-}
-.info{
-    border-top: 1px solid;
-    margin: 10px;
-    padding: 10px;
-    width: 300px;
-    margin: 10px;
 }
 .categories{
     width: 300px;
@@ -32,20 +32,15 @@ blockquote{
     gap: 10px;
     grid-template-columns: repeat(3, 300px);
 }
-.items{
-    width: 300px;
-    display: flex;
-}
-.item{
-    margin: 100px;
-}
-footer{
-    margin: 100px;
-    text-align: center;
-}
+/*School and Progress*/
 .progress {
-    display: flex;
+    display: grid;
 }
 .screenshot{
     padding: 10px;
+}
+/*Footer*/
+footer{
+    margin: 100px;
+    text-align: center;
 }
