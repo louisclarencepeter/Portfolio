@@ -62,17 +62,20 @@ p {
 }
 
 /*Skills*/
+.categories {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 50px;
+}
+.lang-part {
+	text-align: justify;
+}
 blockquote {
 	border-top: 1px solid;
 	border-bottom: 1px solid;
-	margin: 10px;
-	padding: 10px;
-}
-.categories {
-	margin: 10px;
-	display: grid;
-	gap: 10px;
-	grid-template-columns: repeat(3, 300px);
+	margin: 0px;
+	padding: 25px 0px;
+	text-align: center;
 }
 
 /*School and Progress*/
