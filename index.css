@@ -5,14 +5,13 @@
 body{
     background-color:rgb(174, 228, 228);
 }
+/*Contact Info*/
+address p{
+    margin: 0px;
+}
 /*Name and Picture*/
 h1{
     font-size: 50px;
-}
-.items{
-    width: 300px;
-    display: grid;
-    flex-direction: row;
 }
 /*All Paragraphs*/
 p{
@@ -37,6 +36,7 @@ blockquote{
 .schoolprogress{
     display: flex;
     flex-direction: row;
+    float: left;
 }
 
 /*Footer*/
