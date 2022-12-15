@@ -1,7 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 body {
-	background-color: rgb(174, 228, 228);
+	background-color: white;
+	font-family: "Space Mono", monospace;
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+}
+.container {
+	background-color: #a9d4db;
+	width: 95%;
+	float: right;
+}
+
+/* Address */
+.address {
+	list-style: none;
+	padding: 0;
 }
 
 /*Name and Picture*/
@@ -15,7 +30,6 @@ h1 {
 
 /*All Paragraphs*/
 p {
-	font-family: "SpaceMono";
 	line-height: 1.5;
 }
 
