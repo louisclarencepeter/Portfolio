@@ -21,6 +21,15 @@ body {
 	list-style: none;
 	padding: 0;
 }
+.address > li {
+	line-height: 2;
+}
+.address > li > a {
+	color: #363440;
+}
+.address > li > a:hover {
+	color: #628388;
+}
 
 /*Name and Picture*/
 .header {
