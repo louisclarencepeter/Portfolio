@@ -13,7 +13,7 @@ body {
 }
 .container {
 	background-color: #a9d4db;
-	padding: 0 7rem 0 35rem;
+	padding: 0 7rem 0 30rem;
 }
 
 /* Address */
@@ -21,16 +21,18 @@ body {
 	list-style: none;
 	padding: 0;
 	font-size: 0.85em;
-	padding-top: 60px;
+	padding-top: 90px;
 }
 .address > li {
 	line-height: 2;
 }
 .address > li > a {
 	color: #363440;
+	text-decoration: none;
 }
 .address > li > a:hover {
 	color: #628388;
+	font-weight: bold;
 }
 
 /*Name and Picture*/
