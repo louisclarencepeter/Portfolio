@@ -5,6 +5,7 @@
 body {
 	background-color: rgb(174, 228, 228);
 }
+
 /*Name and Picture*/
 h1 {
 	font-size: 50px;
@@ -13,6 +14,7 @@ h1 {
 	width: 300px;
 	display: flex;
 }
+
 /*All Paragraphs*/
 p {
 	font-family: "SpaceMono";
@@ -33,6 +35,7 @@ blockquote {
 	gap: 10px;
 	grid-template-columns: repeat(3, 300px);
 }
+
 /*School and Progress*/
 .progress {
 	display: grid;
@@ -40,6 +43,7 @@ blockquote {
 .screenshot {
 	padding: 10px;
 }
+
 /*Footer*/
 footer {
 	margin: 100px;
