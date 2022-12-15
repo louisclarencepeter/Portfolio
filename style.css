@@ -20,7 +20,7 @@ body {
 .address {
 	list-style: none;
 	padding: 0;
-	font-size: 0.9em;
+	font-size: 1em;
 	padding-top: 90px;
 }
 .address > li {
@@ -95,11 +95,31 @@ blockquote {
 }
 .progress {
 	display: grid;
+	gap: 35px;
+	margin-bottom: 120px;
 }
-.screenshot {
-	padding: 10px;
+.lang-title {
+	display: flex;
+	justify-content: space-between;
+}
+.myProgress {
+	width: 100%;
+	background-color: rgb(255, 255, 255);
 }
 
+.myBar {
+	height: 20px;
+	background-color: #363440;
+}
+.cssBar {
+	width: 70%;
+}
+.htmlBar {
+	width: 90%;
+}
+.javascriptBar {
+	width: 0%;
+}
 /*Footer*/
 footer {
 	text-align: center;
