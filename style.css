@@ -5,14 +5,12 @@ body {
 	font-family: "Space Mono", monospace;
 	font-weight: 400;
 	margin: 0;
-	padding: 0;
 	color: #363440;
-	padding: 0% 2% 0% 4%;
+	padding: 0 2% 5% 4%;
 	padding-bottom: 30px;
 }
 .container {
 	background-color: #a9d4db;
-	float: right;
 }
 
 /* Address */
