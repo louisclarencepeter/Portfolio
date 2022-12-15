@@ -71,8 +71,8 @@ p {
 	text-align: justify;
 }
 blockquote {
-	border-top: 1px solid;
-	border-bottom: 1px solid;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 	margin: 0px;
 	padding: 25px 0px;
 	text-align: center;
@@ -83,6 +83,15 @@ blockquote {
 	margin-top: 60px;
 	display: grid;
 	grid-template-columns: 1fr 2fr;
+	gap: 50px;
+}
+.course-title {
+	width: 95%;
+	padding-bottom: 25px;
+	border-bottom: 1px solid black;
+}
+.school > p {
+	font-style: italic;
 }
 .progress {
 	display: grid;
