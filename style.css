@@ -145,6 +145,21 @@ footer {
 
 /* Media Queries */
 
+/* Large Screens */
+@media only screen and (max-width: 1285px) {
+	.container {
+		padding: 0 7rem 0 12rem;
+	}
+	.graphicBox1 {
+		width: 20px;
+	}
+}
+@media only screen and (max-width: 1550px) {
+	.graphicBox1 {
+		width: 20%;
+	}
+}
+/* Medium Screens */
 @media only screen and (max-width: 992px) {
 	.container {
 		padding: 0 7rem 0 7rem;
@@ -171,6 +186,9 @@ footer {
 		grid-template-columns: 1fr;
 		gap: 30px;
 	}
+	.img-div > img {
+		width: 170px;
+	}
 }
 
 @media only screen and (max-width: 700px) {
@@ -183,4 +201,7 @@ footer {
 	.aboutme > p {
 		font-size: 1em;
 	}
+}
+
+@media (max-width: 400px) and (min-width: 670px) {
 }
