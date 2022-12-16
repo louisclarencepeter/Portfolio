@@ -2,10 +2,10 @@
 
 body {
 	background-color: white;
-	/* font-family: "Space Mono", monospace; */
+	font-family: "Space Mono", monospace;
 
 	/* Just to be easy to code with */
-	font-family: Arial, Helvetica, sans-serif;
+	/* font-family: Arial, Helvetica, sans-serif; */
 	font-weight: 400;
 	margin: 0;
 	color: #363440;
@@ -106,7 +106,6 @@ blockquote {
 	width: 100%;
 	background-color: rgb(255, 255, 255);
 }
-
 .myBar {
 	height: 20px;
 	background-color: #363440;
@@ -142,4 +141,46 @@ footer {
 	top: 10px;
 	left: -120px;
 	background-color: rgb(255, 255, 255);
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 992px) {
+	.container {
+		padding: 0 7rem 0 7rem;
+		margin-bottom: 20px;
+	}
+	body {
+		padding: 10px 17px;
+	}
+	.aboutme > p {
+		font-size: 1.2em;
+	}
+	h1 {
+		font-size: 5em;
+	}
+	.graphicBox1 {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 856px) {
+	.categories {
+		margin-top: 30px;
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 30px;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	h1 {
+		font-size: 3.5em;
+	}
+	.img-div > img {
+		width: 150px;
+	}
+	.aboutme > p {
+		font-size: 1em;
+	}
 }
