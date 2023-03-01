@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Mono', monospace;
+    font-size: 1rem;
+    margin: 0 auto;
+    max-width: 100rem;
+
+}
+
+#home {
+    background-color: #0f0e17;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fffffe;
+    font-size: 1.5rem;
+    font-family: 'Space Mono', monospace;
+    padding: 1rem;
+}
+
+a:hover {
+    color: #ff8906;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+h1:hover {
+    color: #ff8906;
+    cursor: pointer;
+}
+
+.one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(./images/web-page-background-images-hd.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 5rem;
+    height: 46rem;
+}
+
+.one h1 {
+    font-family: 'Space Mono', monospace;
+    font-size: 4rem;
+    color: #fffffe;
+}
+
+p {
+    font-family: 'Space Mono', monospace;
+    font-size: 1.5rem;
+    color: #fffffe;
+}
+
+.one h2 {
+    font-family: 'Space Mono', monospace;
+    font-size: 2rem;
+    color: #fffffe;
+}
+
+footer {
+    background-color: #0f0e17;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color: #fffffe;
+}
+
+#aboutme {
+    background-color: #0f0e17;
+}
+
+.two {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-image: url(./images/IMG_8575.JPG);
+    background-size: cover;
+    background-position: center;
+    padding: 5rem;
+    height: 46rem;
+}
+
+
+.card {
+    text-align: center;
+    height: 37.5rem;
+    width: 21.875rem;
+    box-shadow: 0.125rem 0.125rem 0.125rem 0.125rem rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(00.625rem);
+    padding: 0.625rem;
+}
+
+.card img {
+    border-radius: 100%;
+    border: 0.188rem solid #ff8906;
+    height: 10rem;
+    width: 10rem;
+}
+
+.card h2 {
+    color: #fffffe;
+}
+
+.card p {
+    color: #fffffe;
+}
+
+.card i {
+    color: #fffffe;
+    font-size: 1.875rem;
+    padding: 0.625rem;
+}
+
+.card i:hover {
+    color: #ff8906;
+    cursor: pointer;
+}
+
+.language {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    color: #fffffe;
+    font-size: 6.25rem;
+    padding: 0.625rem;
+    text-align: center;
+}
+
+.icon:hover{
+    color: #ff8906;
+    cursor: pointer;
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+ @-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
