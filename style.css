@@ -80,19 +80,19 @@ h1:hover {
 
 .one h1 {
     font-family: 'Space Mono', monospace;
-    font-size: 4rem;
+    font-size: 7rem;
     color: #fffffe;
 }
 
 p {
     font-family: 'Space Mono', monospace;
-    font-size: 1.5rem;
+    font-size: 3rem;
     color: #fffffe;
 }
 
 .one h2 {
     font-family: 'Space Mono', monospace;
-    font-size: 2rem;
+    font-size: 5rem;
     color: #fffffe;
 }
 
@@ -103,6 +103,14 @@ footer {
     align-items: baseline;
     padding: 1rem;
     color: #fffffe;
+}
+
+footer div p {
+    font-size: 1.5rem;
+}
+
+footer div a {
+    font-size: 1.5rem;
 }
 
 #aboutme {
@@ -130,6 +138,7 @@ footer {
 
 .info p {
     color: #fffffe;
+    font-size: 1.25rem;
 }
 
 .info i {
@@ -145,7 +154,7 @@ footer {
 
 .icon {
     color: #fffffe;
-    font-size: 6.25rem;
+    font-size: 10rem;
     padding: 0.625rem;
     text-align: center;
 }
@@ -181,14 +190,14 @@ footer {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width:900px) {
 
     .one h1 {
         font-size: 5rem;
     }
 
     .one p {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     .one h2 {
@@ -217,7 +226,7 @@ footer {
     }
 
     .icon {
-        font-size: 3rem;
+        font-size: 5rem;
     }
 
     footer div p {
@@ -236,36 +245,36 @@ footer {
         background-image: url(./images/web-page-background-images-hd.jpg);
         background-size: cover;
         background-position: center;
-        min-height: 50vh;
+        min-height: 70vh;
     }
 
     .two {
         background-image: url(./images/IMG_8575.JPG);
         background-size: cover;
         background-position: center;
-        min-height: 100vh;  
+        min-height: 70vh;  
     }
     
     .three {
         background-image: url(./images/web-page-background-images-hd.jpg);
         background-size: cover;
         background-position: center;
-        min-height: 100vh;
+        min-height: 70vh;
     }
 }
 
 @media screen and (max-width: 480px) {
 
     .one h1 {
-        font-size: 3rem;
+        font-size: 5rem;
     }
 
     .one p {
-        font-size: 0.75rem;
+        font-size: 1.5rem;
     }
 
     .one h2 {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .info {
