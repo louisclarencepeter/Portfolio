@@ -10,6 +10,7 @@ This project was built using these technologies:
 
 - HTML5
 - CSS3
+- Bootstrap 5
 
 ## Security Policy
 Please refer to the [security policy](SECURITY.md) here
