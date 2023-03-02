@@ -56,6 +56,7 @@ h1:hover {
     color: #ff8906;
     cursor: pointer;
 }
+
 .one {
     background-image: url(./images/web-page-background-images-hd.jpg);
     background-size: cover;
@@ -191,6 +192,14 @@ footer div a {
 }
 
 @media screen and (max-width:900px) {
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Space Mono', monospace;
+        font-size: 1rem;
+        margin: 0 auto;
+        max-width: 100vw;
+    }
 
     .one h1 {
         font-size: 5rem;
@@ -252,9 +261,9 @@ footer div a {
         background-image: url(./images/IMG_8575.JPG);
         background-size: cover;
         background-position: center;
-        min-height: 70vh;  
+        min-height: 70vh;
     }
-    
+
     .three {
         background-image: url(./images/web-page-background-images-hd.jpg);
         background-size: cover;
@@ -264,6 +273,14 @@ footer div a {
 }
 
 @media screen and (max-width: 480px) {
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Space Mono', monospace;
+        font-size: 1rem;
+        margin: 0 auto;
+        max-width: 100vw;
+    }
 
     .one h1 {
         font-size: 5rem;
@@ -325,10 +342,10 @@ footer div a {
         background-image: url(./images/IMG_8575.JPG);
         background-size: cover;
         background-position: center;
-        min-height: 100vh;  
+        min-height: 100vh;
     }
 
-    
+
     .three {
         background-image: url(./images/web-page-background-images-hd.jpg);
         background-size: cover;
