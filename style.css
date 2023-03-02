@@ -59,9 +59,9 @@ h1:hover {
 
 .one {
     background-image: url(./images/web-page-background-images-hd.jpg);
-    background-size: cover;
-    background-position: center;
     padding: 5rem;
+    background-size: cover;
+
 }
 
 .one h1 {
@@ -98,15 +98,12 @@ footer {
 .two {
     background-image: url(./images/IMG_8575.JPG);
     background-size: cover;
-    background-position: center;
     padding: 5rem;
 }
 
 
 .info {
     text-align: center;
-    height: 32rem;
-    width: 21.875rem;
     box-shadow: 0.125rem 0.125rem 0.125rem 0.125rem rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(00.625rem);
     padding: 0.625rem;
@@ -173,5 +170,65 @@ footer {
     100% {
         -webkit-transform: scale(1);
         transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .one h1 {
+        font-size: 5rem;
+    }
+
+    .one p {
+        font-size: 1rem;
+    }
+
+    .one h2 {
+        font-size: 2rem;
+    }
+
+    .info {
+        padding: 0.625rem;
+    }
+
+    .info img {
+        height: 5rem;
+        width: 5rem;
+    }
+
+    .info h2 {
+        font-size: 1rem;
+    }
+
+    .info p {
+        font-size: 0.75rem;
+    }
+
+    .info i {
+        font-size: 1rem;
+    }
+
+    .icon {
+        font-size: 3rem;
+    }
+
+    footer div p {
+        font-size: 1rem;
+    }
+
+    footer div a {
+        font-size: 1rem;
+    }
+
+    header a {
+        font-size: 1rem;
+    }
+
+    .two {
+        background-image: url(./images/IMG_8575.JPG);
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        
     }
 }
