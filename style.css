@@ -15,8 +15,7 @@ body {
     font-family: 'Space Mono', monospace;
     font-size: 1rem;
     margin: 0 auto;
-    max-width: 100rem;
-
+    max-width: 100vw;
 }
 
 #home {
@@ -26,7 +25,8 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
+    margin-top: 1rem;
 }
 
 ul {
@@ -59,8 +59,8 @@ h1:hover {
 
 .one {
     background-image: url(./images/web-page-background-images-hd.jpg);
-    padding: 5rem;
     background-size: cover;
+    background-position: center;
 
 }
 
@@ -86,7 +86,7 @@ footer {
     background-color: #0f0e17;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     padding: 1rem;
     color: #fffffe;
 }
@@ -98,7 +98,7 @@ footer {
 .two {
     background-image: url(./images/IMG_8575.JPG);
     background-size: cover;
-    padding: 5rem;
+    padding: 3rem;
 }
 
 
