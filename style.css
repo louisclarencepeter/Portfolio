@@ -232,18 +232,18 @@ footer {
         font-size: 1rem;
     }
 
+    .one {
+        background-image: url(./images/web-page-background-images-hd.jpg);
+        background-size: cover;
+        background-position: center;
+        min-height: 50vh;
+    }
+
     .two {
         background-image: url(./images/IMG_8575.JPG);
         background-size: cover;
         background-position: center;
         min-height: 100vh;  
-    }
-
-    .one {
-        background-image: url(./images/web-page-background-images-hd.jpg);
-        background-size: cover;
-        background-position: center;
-        min-height: 100vh;
     }
     
     .three {
@@ -290,7 +290,7 @@ footer {
     }
 
     .icon {
-        font-size: 2rem;
+        font-size: 5rem;
     }
 
     footer div p {
@@ -305,6 +305,13 @@ footer {
         font-size: 0.75rem;
     }
 
+    .one {
+        background-image: url(./images/web-page-background-images-hd.jpg);
+        background-size: cover;
+        background-position: center;
+        min-height: 75vh;
+    }
+
     .two {
         background-image: url(./images/IMG_8575.JPG);
         background-size: cover;
@@ -312,12 +319,6 @@ footer {
         min-height: 100vh;  
     }
 
-    .one {
-        background-image: url(./images/web-page-background-images-hd.jpg);
-        background-size: cover;
-        background-position: center;
-        min-height: 100vh;
-    }
     
     .three {
         background-image: url(./images/web-page-background-images-hd.jpg);
