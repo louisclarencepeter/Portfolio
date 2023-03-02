@@ -56,12 +56,26 @@ h1:hover {
     color: #ff8906;
     cursor: pointer;
 }
-
 .one {
     background-image: url(./images/web-page-background-images-hd.jpg);
     background-size: cover;
     background-position: center;
+    min-height: 75vh;
+}
 
+.three {
+    background-image: url(./images/web-page-background-images-hd.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 75vh;
+    min-width: max-content;
+}
+
+.two {
+    background-image: url(./images/IMG_8575.JPG);
+    background-size: cover;
+    background-position: center;
+    min-height: 75vh;
 }
 
 .one h1 {
@@ -93,12 +107,6 @@ footer {
 
 #aboutme {
     background-color: #0f0e17;
-}
-
-.two {
-    background-image: url(./images/IMG_8575.JPG);
-    background-size: cover;
-    padding: 3rem;
 }
 
 
@@ -228,7 +236,93 @@ footer {
         background-image: url(./images/IMG_8575.JPG);
         background-size: cover;
         background-position: center;
+        min-height: 100vh;  
+    }
+
+    .one {
+        background-image: url(./images/web-page-background-images-hd.jpg);
+        background-size: cover;
+        background-position: center;
         min-height: 100vh;
-        
+    }
+    
+    .three {
+        background-image: url(./images/web-page-background-images-hd.jpg);
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .one h1 {
+        font-size: 3rem;
+    }
+
+    .one p {
+        font-size: 0.75rem;
+    }
+
+    .one h2 {
+        font-size: 1.5rem;
+    }
+
+    .info {
+        padding: 0.625rem;
+    }
+
+    .info img {
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .info h2 {
+        font-size: 0.75rem;
+    }
+
+    .info p {
+        font-size: 0.5rem;
+    }
+
+    .info i {
+        font-size: 0.75rem;
+    }
+
+    .icon {
+        font-size: 2rem;
+    }
+
+    footer div p {
+        font-size: 0.75rem;
+    }
+
+    footer div a {
+        font-size: 0.75rem;
+    }
+
+    header a {
+        font-size: 0.75rem;
+    }
+
+    .two {
+        background-image: url(./images/IMG_8575.JPG);
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;  
+    }
+
+    .one {
+        background-image: url(./images/web-page-background-images-hd.jpg);
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+    }
+    
+    .three {
+        background-image: url(./images/web-page-background-images-hd.jpg);
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
     }
 }
