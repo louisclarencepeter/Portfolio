@@ -58,16 +58,10 @@ h1:hover {
 }
 
 .one {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
     background-image: url(./images/web-page-background-images-hd.jpg);
     background-size: cover;
     background-position: center;
     padding: 5rem;
-    height: 46rem;
 }
 
 .one h1 {
@@ -102,59 +96,46 @@ footer {
 }
 
 .two {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
     background-image: url(./images/IMG_8575.JPG);
     background-size: cover;
     background-position: center;
     padding: 5rem;
-    height: 46rem;
 }
 
 
-.card {
+.info {
     text-align: center;
-    height: 37.5rem;
+    height: 32rem;
     width: 21.875rem;
     box-shadow: 0.125rem 0.125rem 0.125rem 0.125rem rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(00.625rem);
     padding: 0.625rem;
 }
 
-.card img {
+.info img {
     border-radius: 100%;
     border: 0.188rem solid #ff8906;
     height: 10rem;
     width: 10rem;
 }
 
-.card h2 {
+.info h2 {
     color: #fffffe;
 }
 
-.card p {
+.info p {
     color: #fffffe;
 }
 
-.card i {
+.info i {
     color: #fffffe;
     font-size: 1.875rem;
     padding: 0.625rem;
 }
 
-.card i:hover {
+.info i:hover {
     color: #ff8906;
     cursor: pointer;
-}
-
-.language {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .icon {
@@ -164,30 +145,33 @@ footer {
     text-align: center;
 }
 
-.icon:hover{
+.icon:hover {
     color: #ff8906;
     cursor: pointer;
-	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
- @-webkit-keyframes scale-up-center {
+@-webkit-keyframes scale-up-center {
     0% {
-      -webkit-transform: scale(0.5);
-              transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
     }
+
     100% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
+        -webkit-transform: scale(1);
+        transform: scale(1);
     }
-  }
-  @keyframes scale-up-center {
+}
+
+@keyframes scale-up-center {
     0% {
-      -webkit-transform: scale(0.5);
-              transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
     }
+
     100% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
+        -webkit-transform: scale(1);
+        transform: scale(1);
     }
-  }
+}
