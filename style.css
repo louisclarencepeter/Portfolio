@@ -61,14 +61,14 @@ h1:hover {
     background-image: url(./images/web-page-background-images-hd.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 75vh;
+    min-height: 85vh;
 }
 
 .three {
     background-image: url(./images/web-page-background-images-hd.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 75vh;
+    min-height: 85vh;
     min-width: max-content;
 }
 
@@ -76,7 +76,7 @@ h1:hover {
     background-image: url(./images/IMG_8575.JPG);
     background-size: cover;
     background-position: center;
-    min-height: 75vh;
+    min-height: 85vh;
 }
 
 .one h1 {
