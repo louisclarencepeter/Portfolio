@@ -381,8 +381,8 @@ footer div a {
         height: 3rem;
         width: 3rem;
     }
-/* 
-    .info h2 {
+
+/*     .info h2 {
         font-size: 0.75rem;
     }
 
@@ -415,9 +415,9 @@ footer div a {
         width: 15rem;
     }
 
-/*     .photography h2 {
+    .photography h2 {
         font-size: 1rem;
-    } */
+    }
 
     .one {
         background-image: url(./images/web-page-background-images-hd.jpg);
