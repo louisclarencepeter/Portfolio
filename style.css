@@ -65,27 +65,22 @@ h1:hover {
     background-image: url(./images/web-page-background-images-hd.jpg);
     background-size: cover;
     background-position: center;
-    <<<<<<< HEAD min-height: 83vh;
-    =======min-height: 88vh;
-    >>>>>>>refs/remotes/origin/main
+    min-height: 83vh;
 }
 
 .three {
     background-image: url(./images/web-page-background-images-hd.jpg);
     background-size: cover;
     background-position: center;
-    <<<<<<< HEAD min-height: 83vh;
-    =======min-height: 88vh;
-    >>>>>>>refs/remotes/origin/main min-width: max-content;
+    min-height: 83vh;
+    min-width: max-content;
 }
 
 .two {
     background-image: url(./images/IMG_8575.JPG);
     background-size: cover;
     background-position: center;
-    <<<<<<< HEAD min-height: 83vh;
-    =======min-height: 88vh;
-    >>>>>>>refs/remotes/origin/main
+    min-height: 83vh;
 }
 
 .one h1 {
