@@ -65,34 +65,27 @@ h1:hover {
     background-image: url(./images/web-page-background-images-hd.jpg);
     background-size: cover;
     background-position: center;
-<<<<<<< HEAD
-    min-height: 83vh;
-=======
-    min-height: 88vh;
->>>>>>> refs/remotes/origin/main
+    <<<<<<< HEAD min-height: 83vh;
+    =======min-height: 88vh;
+    >>>>>>>refs/remotes/origin/main
 }
 
 .three {
     background-image: url(./images/web-page-background-images-hd.jpg);
     background-size: cover;
     background-position: center;
-<<<<<<< HEAD
-    min-height: 83vh;
-=======
-    min-height: 88vh;
->>>>>>> refs/remotes/origin/main
-    min-width: max-content;
+    <<<<<<< HEAD min-height: 83vh;
+    =======min-height: 88vh;
+    >>>>>>>refs/remotes/origin/main min-width: max-content;
 }
 
 .two {
     background-image: url(./images/IMG_8575.JPG);
     background-size: cover;
     background-position: center;
-<<<<<<< HEAD
-    min-height: 83vh;
-=======
-    min-height: 88vh;
->>>>>>> refs/remotes/origin/main
+    <<<<<<< HEAD min-height: 83vh;
+    =======min-height: 88vh;
+    >>>>>>>refs/remotes/origin/main
 }
 
 .one h1 {
@@ -201,7 +194,7 @@ footer div a {
     padding: 0.625rem;
 }
 
-.photography{
+.photography {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -222,10 +215,10 @@ footer div a {
     padding: 0.625rem;
 }
 
-.photography:hover{
+.photography:hover {
     cursor: pointer;
 }
-  
+
 
 .info i:hover {
     color: #ff8906;
@@ -361,7 +354,7 @@ footer div a {
         max-width: 100vw;
     }
 
-/*     .one h1 {
+    /*     .one h1 {
         font-size: 5rem;
     }
 
@@ -382,7 +375,7 @@ footer div a {
         width: 3rem;
     }
 
-/*     .info h2 {
+    /*     .info h2 {
         font-size: 0.75rem;
     }
 
