@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    font-size: calp(1rem + 0.5vw, 1.5rem);
+}
+
 html {
     height: 100vh;
     width: 100vw;
@@ -357,7 +361,7 @@ footer div a {
         max-width: 100vw;
     }
 
-    .one h1 {
+/*     .one h1 {
         font-size: 5rem;
     }
 
@@ -368,7 +372,7 @@ footer div a {
     .one h2 {
         font-size: 2rem;
     }
-
+ */
     .info {
         padding: 0.625rem;
     }
@@ -377,7 +381,7 @@ footer div a {
         height: 3rem;
         width: 3rem;
     }
-
+/* 
     .info h2 {
         font-size: 0.75rem;
     }
@@ -404,16 +408,16 @@ footer div a {
 
     header a {
         font-size: 0.75rem;
-    }
+    } */
 
     .photography img {
         height: 10rem;
         width: 15rem;
     }
 
-    .photography h2 {
+/*     .photography h2 {
         font-size: 1rem;
-    }
+    } */
 
     .one {
         background-image: url(./images/web-page-background-images-hd.jpg);
