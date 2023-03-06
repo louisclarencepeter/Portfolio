@@ -61,14 +61,14 @@ h1:hover {
     background-image: url(./images/web-page-background-images-hd.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 75vh;
+    min-height: 83vh;
 }
 
 .three {
     background-image: url(./images/web-page-background-images-hd.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 75vh;
+    min-height: 83vh;
     min-width: max-content;
 }
 
@@ -76,7 +76,7 @@ h1:hover {
     background-image: url(./images/IMG_8575.JPG);
     background-size: cover;
     background-position: center;
-    min-height: 75vh;
+    min-height: 83vh;
 }
 
 .one h1 {
@@ -160,6 +160,10 @@ footer div a {
     justify-content: center;
     align-items: center;
     padding: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .photography img {
@@ -177,30 +181,7 @@ footer div a {
 
 .photography:hover{
     cursor: pointer;
-    -webkit-animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
-
-@-webkit-keyframes slide-fwd-center {
-    0% {
-      -webkit-transform: translateZ(0);
-              transform: translateZ(0);
-    }
-    100% {
-      -webkit-transform: translateZ(160px);
-              transform: translateZ(160px);
-    }
-  }
-  @keyframes slide-fwd-center {
-    0% {
-      -webkit-transform: translateZ(0);
-              transform: translateZ(0);
-    }
-    100% {
-      -webkit-transform: translateZ(160px);
-              transform: translateZ(160px);
-    }
-  }
   
 
 .info i:hover {
