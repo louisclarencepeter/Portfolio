@@ -406,6 +406,15 @@ footer div a {
         font-size: 0.75rem;
     }
 
+    .photography img {
+        height: 10rem;
+        width: 15rem;
+    }
+
+    .photography h2 {
+        font-size: 1rem;
+    }
+
     .one {
         background-image: url(./images/web-page-background-images-hd.jpg);
         background-size: cover;
@@ -425,6 +434,6 @@ footer div a {
         background-image: url(./images/web-page-background-images-hd.jpg);
         background-size: cover;
         background-position: center;
-        min-height: 100vh;
+        min-height: 75vh;
     }
 }
