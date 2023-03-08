@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: calp(1rem + 0.5vw, 1.5rem);
+    font-family: 'Space Mono', monospace;
+    color: #fffffe;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Mono', monospace;
+    background-color: #0f0e17;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fffffe;
+    font-size: 1rem;
+}
+
+a:hover {
+    color: #ff8906;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+    padding: 0.5rem;
+}
+
+header img {
+    width: 2rem;
+    height: 2rem;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(./images/web-page-background-images-hd.jpg);
+    gap: 1rem;
+    height: 100vh;
+}
+
+.photography {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.photography img {
+    border-radius: 0.625rem;
+    height: 10rem;
+    width: 15rem;
+    padding: 0.625rem;
+}
+
+.photography h2 {
+    color: #fffffe;
+    font-size: 1rem;
+    padding: 0.625rem;
+}
+
+.photography:hover {
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
