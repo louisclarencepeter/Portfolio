@@ -106,7 +106,7 @@ footer {
     padding: 0 1rem;
 }
 
-.info:hover {
+section:hover {
     cursor: pointer;
     -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
