@@ -73,6 +73,14 @@ footer {
     padding: 0 1rem;
 }
 
+footer div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+
 .photography {
     display: flex;
     flex-direction: column;

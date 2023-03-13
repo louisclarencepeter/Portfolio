@@ -21,7 +21,6 @@ body {
     padding: 0;
     font-family: 'Space Mono', monospace;
     background-color: #0f0e17;
-    display: block;
 }
 
 header {
@@ -66,46 +65,6 @@ main {
     gap: 1rem;
 }
 
-section {
-    width: 15rem;
-    margin: 1rem;
-}
-
-.info {
-    text-align: center;
-    box-shadow: 0.125rem 0.125rem 0.125rem 0.125rem rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(00.625rem);
-    padding: 0.625rem;
-}
-
-.info img {
-    border-radius: 100%;
-    border: 0.188rem solid #ff8906;
-    height: 5rem;
-    width: 5rem;
-}
-
-.info h2 {
-    color: #fffffe;
-    font-size: 1.5rem;
-}
-
-.info p {
-    color: #fffffe;
-    font-size: 1rem;
-}
-
-.info i {
-    color: #fffffe;
-    font-size: 1.875rem;
-    padding: 0.625rem;
-}
-
-.info i:hover {
-    color: #ff8906;
-    cursor: pointer;
-}
-
 footer {
     display: flex;
     justify-content: space-between;
@@ -113,50 +72,13 @@ footer {
     padding: 0 1rem;
 }
 
-footer div:nth-child(1) {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-}
-
-section:hover {
-    cursor: pointer;
-    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-}
-
-@-webkit-keyframes scale-up-center {
-    0% {
-        -webkit-transform: scale(0.5);
-        transform: scale(0.5);
-    }
-
-    100% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
-}
-
-@keyframes scale-up-center {
-    0% {
-        -webkit-transform: scale(0.5);
-        transform: scale(0.5);
-    }
-
-    100% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
-}
 
 @media screen and (min-width: 768px) {
     main {
         flex-direction: row;
-        align-items: center;
         justify-content: space-evenly;
+        align-items: center;
         gap: 1rem;
-        height: 100vh;
     }
 
     article {
@@ -182,10 +104,9 @@ section:hover {
 @media screen and (min-width: 1024px) {
     main {
         flex-direction: row;
-        align-items: center;
         justify-content: space-evenly;
+        align-items: center;
         gap: 1rem;
-        height: 100vh;
     }
 
     article {
@@ -211,10 +132,9 @@ section:hover {
 @media screen and (min-width: 1440px) {
     main {
         flex-direction: row;
-        align-items: center;
         justify-content: space-evenly;
+        align-items: center;
         gap: 1rem;
-        height: 85vh;
     }
 
     article {

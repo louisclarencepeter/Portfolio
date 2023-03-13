@@ -121,6 +121,13 @@ footer {
     padding: 0 1rem;
 }
 
+footer div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
 @media screen and (min-width: 768px) {
     main {
         flex-direction: row;
@@ -172,7 +179,7 @@ footer {
         padding: 0 1rem;
     }
 }
-    
+
 @media screen and (min-width: 1440px) {
     main {
         height: 85vh;
