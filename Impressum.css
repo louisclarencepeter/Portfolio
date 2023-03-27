@@ -154,3 +154,15 @@ footer {
         padding: 0 1rem;
     }
 }
+
+@media screen and (min-width: 1920px) {
+
+    body {
+        width: 60vw;
+        margin: 0 auto;
+    }
+
+    main {
+        height: 93vh;
+    }
+}

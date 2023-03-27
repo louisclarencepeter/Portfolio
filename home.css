@@ -183,7 +183,6 @@ footer div:nth-child(1) {
         height: 85vh;
         flex-direction: row;
         gap: 1rem;
-        width: 60vw;
     }
 
     article {
@@ -203,5 +202,17 @@ footer div:nth-child(1) {
     footer i {
         font-size: 2rem;
         padding: 0 1rem;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+
+    body {
+        width: 60vw;
+        margin: 0 auto;
+    }
+
+    main {
+        height: 93vh;
     }
 }
