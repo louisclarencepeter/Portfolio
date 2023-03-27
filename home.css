@@ -183,6 +183,7 @@ footer div:nth-child(1) {
         height: 85vh;
         flex-direction: row;
         gap: 1rem;
+        width: 60vw;
     }
 
     article {
