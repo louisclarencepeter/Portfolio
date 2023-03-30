@@ -130,6 +130,7 @@ footer div:nth-child(1) {
     main {
         flex-direction: row;
         gap: 1rem;
+        height: 93vh;
     }
 
     article {
@@ -156,6 +157,7 @@ footer div:nth-child(1) {
     main {
         flex-direction: row;
         gap: 1rem;
+        height: 93vh;
     }
 
     article {
@@ -180,7 +182,7 @@ footer div:nth-child(1) {
 
 @media screen and (min-width: 1440px) {
     main {
-        height: 85vh;
+        height: 87vh;
         flex-direction: row;
         gap: 1rem;
     }
