@@ -63,6 +63,15 @@ main {
     gap: 1rem;
 }
 
+.impressum {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
