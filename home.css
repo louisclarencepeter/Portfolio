@@ -46,7 +46,7 @@ ul {
 a {
     text-decoration: none;
     color: #fffffe;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 a:hover {
@@ -76,7 +76,7 @@ article {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 h1 {
@@ -106,7 +106,7 @@ section {
 }
 
 section i {
-    font-size: 5rem;
+    font-size: 4rem;
     padding: 0 1rem;
 }
 
@@ -122,6 +122,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 0 1rem;
+    height: 4rem;
 }
 
 footer div:nth-child(1) {
@@ -129,6 +130,12 @@ footer div:nth-child(1) {
     justify-content: center;
     align-items: center;
     gap: 1rem;
+}
+
+footer p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin: 0;
 }
 
 @media screen and (min-width: 768px) {
