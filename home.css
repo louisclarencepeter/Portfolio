@@ -70,6 +70,8 @@ main {
     flex-direction: column;
     background-image: url(./images/web-page-background-images-hd.jpg);
     height: 87vh;
+    padding: 2rem 1rem;
+
 }
 
 article {
