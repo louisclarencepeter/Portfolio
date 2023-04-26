@@ -195,14 +195,31 @@ footer p {
 }
 
 @media screen and (min-width: 1440px) {
+
+    header a {
+        font-size: 1.5rem;
+    }
     main {
-        height: 87vh;
+        height: 84vh;
         flex-direction: row;
         gap: 1rem;
     }
 
     article {
         padding: 3rem;
+    }
+
+    h1 {
+        font-size: 5rem;
+    }
+    
+    h2 {
+        font-size: 3rem;
+    }
+    
+    article p {
+        font-size: 2.5rem;
+
     }
 
     section {
@@ -213,6 +230,23 @@ footer p {
 
     section i {
         padding: 1rem;
+        font-size: 6rem;
+    }
+    
+    section p {
+        font-size: 2rem;
+    }
+
+    footer {
+        height: 4rem;
+    }
+
+    footer p {
+        font-size: 1.5rem;
+    }
+
+    footer a {
+        font-size: 1.5rem;
     }
 
     footer i {
@@ -229,6 +263,6 @@ footer p {
     }
 
     main {
-        height: 93vh;
+        height: 92vh;
     }
 }
