@@ -197,7 +197,7 @@ footer p {
 @media screen and (min-width: 1440px) {
 
     header a {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     main {
         height: 84vh;
@@ -242,11 +242,11 @@ footer p {
     }
 
     footer p {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     footer a {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     footer i {

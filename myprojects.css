@@ -203,12 +203,17 @@ footer p {
 }
 
 @media screen and (min-width: 1440px) {
+
+    header a {
+        font-size: 1.3rem;
+    }
+
     main {
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
         gap: 1rem;
-        height: 87vh;
+        height: 84vh;
     }
 
     article {
@@ -225,9 +230,34 @@ footer p {
         padding: 1rem;
     }
 
+    .photography img {
+        border-radius: 0.625rem;
+        height: 15rem;
+        width: 20rem;
+        padding: 0.625rem;
+    }
+
+    .photography h2 {
+        color: #fffffe;
+        font-size: 1.5rem;
+        padding: 0.625rem;
+    }
+
     footer i {
         font-size: 2rem;
         padding: 0 1rem;
+    }
+
+    footer {
+        height: 4rem;
+    }
+
+    footer p {
+        font-size: 1.3rem;
+    }
+
+    footer a {
+        font-size: 1.3rem;
     }
 }
 
