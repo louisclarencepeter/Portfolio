@@ -99,7 +99,7 @@ article p {
     margin: 0;
 }
 
-section {
+.icons {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,12 +107,12 @@ section {
     padding: 2rem;
 }
 
-section i {
+.icons i {
     font-size: 4rem;
     padding: 0 1rem;
 }
 
-section p {
+.icons p {
     font-size: 1rem;
     font-weight: 400;
     margin: 0;
@@ -151,13 +151,13 @@ footer p {
         padding: 3rem;
     }
 
-    section {
+    .icons {
         flex-direction: row;
         justify-content: space-evenly;
         padding: 2rem;
     }
 
-    section i {
+    .icons i {
         padding: 1rem;
     }
 
@@ -178,13 +178,13 @@ footer p {
         padding: 3rem;
     }
 
-    section {
+    .icons {
         flex-direction: row;
         justify-content: space-evenly;
         padding: 2rem;
     }
 
-    section i {
+    .icons i {
         padding: 1rem;
     }
 
@@ -222,18 +222,18 @@ footer p {
 
     }
 
-    section {
+    .icons {
         flex-direction: row;
         justify-content: space-evenly;
         padding: 2rem;
     }
 
-    section i {
+    .icons i {
         padding: 1rem;
         font-size: 6rem;
     }
     
-    section p {
+    .icons p {
         font-size: 2rem;
     }
 
