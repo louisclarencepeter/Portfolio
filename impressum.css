@@ -1,6 +1,4 @@
-*,
-:after,
-:before {
+* {
     box-sizing: border-box;
 }
 
@@ -130,6 +128,12 @@ footer p {
 }
 
 @media screen and (min-width: 1024px) {
+
+    body {
+        width: 80vw;
+        margin: 0 auto;
+    }
+    
     main {
         flex-direction: row;
         justify-content: space-evenly;
@@ -158,10 +162,14 @@ footer p {
 }
 
 @media screen and (min-width: 1440px) {
+    header a {
+        font-size: 1.3rem;
+    }
+
     main {
         flex-direction: row;
-        justify-content: space-evenly;
         align-items: center;
+        justify-content: space-evenly;
         gap: 1rem;
     }
 
@@ -173,10 +181,36 @@ footer p {
         flex-direction: row;
         justify-content: space-evenly;
         padding: 2rem;
+        width: 20rem;
+    }
+
+    .info img {
+        height: 7rem;
+        width: 7rem;
+    }
+
+    .info h2 {
+        font-size: 2rem;
+    }
+
+    .info p {
+        font-size: 1.3rem;
     }
 
     section i {
         padding: 1rem;
+    }
+
+    footer {
+        height: 4rem;
+    }
+
+    footer p {
+        font-size: 1.3rem;
+    }
+
+    footer a {
+        font-size: 1.3rem;
     }
 
     footer i {
@@ -184,9 +218,9 @@ footer p {
         padding: 0 1rem;
     }
 }
+    
 
 @media screen and (min-width: 1921px) {
-
     body {
         width: 60vw;
         margin: 0 auto;

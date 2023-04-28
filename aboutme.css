@@ -1,6 +1,6 @@
-*,
-:after,
-:before {
+/* General Rukes */
+
+* {
     box-sizing: border-box;
 }
 
@@ -15,12 +15,8 @@
     color: #fffffe;
 }
 
-html {
-    display: block;
-}
-
-body {
-    margin: 0;
+html, body {
+    margin: 0 auto;
     padding: 0;
     font-family: 'Space Mono', monospace;
     background-color: #0f0e17;
@@ -193,6 +189,10 @@ section:hover {
 }
 
 @media screen and (min-width: 1024px) {
+
+    body {
+        width: 80vw;
+    }
     main {
         flex-direction: row;
         align-items: center;
