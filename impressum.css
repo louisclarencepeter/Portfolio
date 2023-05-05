@@ -4,7 +4,8 @@
 
 @font-face {
     font-family: 'Space Mono';
-    src: url(./fonts/SpaceMono-Regular.ttf) format('truetype');; 
+    src: url(./fonts/SpaceMono-Regular.ttf) format('truetype');
+    ;
 }
 
 :root {
@@ -54,6 +55,10 @@ a:hover {
 li {
     list-style: none;
     padding: 0.5rem;
+}
+
+li:hover {
+    transform: scale(1.2);
 }
 
 header img {
@@ -133,7 +138,7 @@ footer p {
         width: 80vw;
         margin: 0 auto;
     }
-    
+
     main {
         flex-direction: row;
         justify-content: space-evenly;
@@ -218,7 +223,7 @@ footer p {
         padding: 0 1rem;
     }
 }
-    
+
 
 @media screen and (min-width: 1921px) {
     body {

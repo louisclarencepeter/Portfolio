@@ -56,6 +56,10 @@ li {
     padding: 0.5rem;
 }
 
+li:hover {
+    transform: scale(1.2);
+}
+
 header img {
     width: 2rem;
     height: 2rem;
