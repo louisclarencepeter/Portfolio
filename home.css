@@ -156,6 +156,10 @@ footer p {
     margin: 0;
 }
 
+footer div i a {
+    font-size: 1rem;
+}
+
 /* Resposiveness on Different Devices */
 
 @media screen and (min-width: 768px) {
