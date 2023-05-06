@@ -8,7 +8,7 @@
 }
 
 :root {
-    font-size: calp(1rem + 0.5vw, 1.5rem);
+    font-size: calc(1rem + 0.5vw, 1.5rem);
     font-family: 'Space Mono', monospace;
     color: #fffffe;
 }
