@@ -340,12 +340,21 @@ footer p {
     }
 }
 
+@media screen and (min-height: 1280px) {
+    
+        main {
+            height: 91vh;
+        }
+    
+}
+
 @media screen and (min-height: 1920px) {
 
     main {
         height: 91vh;
     }
 }
+
 
 @media screen and (min-width: 1280px) {
 
