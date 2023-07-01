@@ -290,7 +290,7 @@ footer p {
 
 @media screen and (min-width: 680px) {
     main {
-        height: 80vh;
+        height: 89vh;
         gap: 1rem;
         flex-direction: row;
     }
@@ -303,6 +303,7 @@ footer p {
 
 @media screen and (min-width: 769px) {
     main {
+        height: 90vh;
         flex-direction: row;
         gap: 1rem;
     }
@@ -439,7 +440,7 @@ footer p {
 
     .icons i {
         padding: 1rem;
-        font-size: 6rem;
+        font-size: 4rem;
     }
 
     .icons p {
@@ -462,6 +463,10 @@ footer p {
         font-size: 2rem;
         padding: 0 1rem;
     }
+
+    footer div a {
+        font-size: 1.2rem;
+    }
 }
 
 @media screen and (min-width: 1721px) {
@@ -472,7 +477,7 @@ footer p {
     }
 
     main {
-        height: 85vh;
+        height: 89vh;
     }
 }
 
@@ -485,6 +490,6 @@ footer p {
     }
 
     main {
-        height: 88vh;
+        height: 89vh;
     }
 }
