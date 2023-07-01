@@ -203,8 +203,15 @@ footer p {
     }
 
     footer i {
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding: 0 1rem;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    main {
+        height: 83vh;
     }
 }
 
@@ -264,6 +271,18 @@ footer p {
 
     footer a {
         font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 1721px) {
+
+    body {
+        width: 60vw;
+        margin: 0 auto;
+    }
+
+    main {
+        height: 85vh;
     }
 }
 

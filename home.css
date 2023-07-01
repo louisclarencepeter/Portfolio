@@ -165,7 +165,7 @@ footer p {
     }
 
     h2 {
-        font-size: 0.5rem;
+        font-size: 0.8rem;
     }
 
     .icons i {
@@ -176,41 +176,20 @@ footer p {
         font-size: 0.5rem;
     }
 
-    footer p {
-        font-size: 0.3rem;
-        font-weight: 200;
-        margin: 0;
-    }
-
-   /* header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0 1rem;
-        font-size: 0.5rem;
-        font-weight: 200;
-        margin: 0;
-    }
-
-    a {
-        font-size: 0.3rem;
-    }
-
     footer {
         height: 2rem;
 
     }
 
-    footer div:nth-child(1) {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 0.1rem;
+    footer p {
+        font-size: 0.5rem;
+        font-weight: 200;
+        margin: 0;
     }
 
-    footer a {
-        font-size: 0.3rem;
-    } */
+    footer div a {
+        font-size: 0.5rem;
+    }
 
 }
 
@@ -303,7 +282,7 @@ footer p {
     }
 
     footer i {
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding: 0 1rem;
     }
 }
@@ -335,17 +314,17 @@ footer p {
     }
 
     footer i {
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding: 0 1rem;
     }
 }
 
 @media screen and (min-height: 1280px) {
-    
-        main {
-            height: 91vh;
-        }
-    
+
+    main {
+        height: 91vh;
+    }
+
 }
 
 @media screen and (min-height: 1920px) {
@@ -359,7 +338,7 @@ footer p {
 @media screen and (min-width: 1280px) {
 
     main {
-        height: 81vh;
+        height: 83vh;
     }
 }
 
@@ -370,7 +349,7 @@ footer p {
     }
 
     main {
-        height: 80vh;
+        height: 84vh;
         flex-direction: row;
         gap: 1rem;
     }
