@@ -271,19 +271,19 @@ footer p {
 
 @media screen and (min-width: 375px) {
     main {
-        height: 82vh;
+        height: 83vh;
     }
 }
 
 @media screen and (min-width: 389px) {
     main {
-        height: 83vh;
+        height: 87vh;
     }
 }
 
 @media screen and (min-width: 420px) {
     main {
-        height: 84vh;
+        height: 88vh;
     }
 }
 
