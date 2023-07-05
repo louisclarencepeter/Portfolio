@@ -277,13 +277,13 @@ footer p {
 
 @media screen and (min-width: 389px) {
     main {
-        height: 87vh;
+        height: 85vh;
     }
 }
 
 @media screen and (min-width: 420px) {
     main {
-        height: 88vh;
+        height: 86vh;
     }
 }
 
