@@ -67,11 +67,10 @@ header img {
 
 main {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     flex-direction: column;
     background-image: url(./images/web-page-background-images-hd.jpg);
     gap: 1rem;
-    height: 93vh;
 }
 
 h2 { 
