@@ -95,7 +95,7 @@ footer p {
     margin: 0;
 }
 
-.photography {
+.projects {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -103,20 +103,20 @@ footer p {
     padding: 1rem;
 }
 
-.photography img {
+.projects img {
     border-radius: 0.625rem;
     height: 10rem;
     width: 15rem;
     padding: 0.625rem;
 }
 
-.photography h2 {
+.projects h2 {
     color: #fffffe;
     font-size: 1rem;
     padding: 0.625rem;
 }
 
-.photography:hover {
+.projects:hover {
     cursor: pointer;
     -webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
