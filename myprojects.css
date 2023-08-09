@@ -67,12 +67,17 @@ header img {
 
 main {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     flex-direction: column;
     background-image: url(./images/web-page-background-images-hd.jpg);
     gap: 1rem;
     height: 93vh;
 }
+
+h2 { 
+    text-align: center;
+}
+
 
 footer {
     display: flex;
