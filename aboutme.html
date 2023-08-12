@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,57 +8,61 @@
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="author" content="Louis Peter">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./fontawesome-free-6.2.1-web/css/all.css" />
-    <link rel="stylesheet" href="./home.css" />
-    <link rel="icon" type="image/x-icon" href="./images/IMG_8327.JPG" />
-    <title>Louis Peter Portfolio</title>
+    <link rel="stylesheet" href="./fontawesome-free-6.2.1-web/css/all.css" type="text/css">
+    <link rel="stylesheet" href="./aboutme.css">
+    <title>About Me</title>
 </head>
 
 <body>
-
     <!-- Header -->
     <header>
         <div>
-            <a href="./aboutme.html" aria-label="About Louis Peter">
-                <img src="./images/IMG_8327.JPG" alt="Louis Peter Logo" />
+            <a href="./home.html">
+                <img src="./images/IMG_8327.JPG" alt="Logo" width="30" height="30">
             </a>
         </div>
         <nav>
             <ul>
-                <li><a href="./aboutme.html">About Me</a></li>
                 <li><a href="./myprojects.html">My Projects</a></li>
+                <li><a href="./home.html">Back Home</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Main Content -->
     <main>
-
-        <!-- About Me Section -->
+        <!-- My Picture and Small Info -->
         <section>
-            <a href="./aboutme.html">
-                <h1>Louis Peter</h1>
-            </a>
-            <p>Aspiring Full Stack</p>
-            <h2><span class="highlight">Web</span> Developer</h2>
+            <div class="info">
+                <img src="./images/IMG_8327.JPG" alt="my picture">
+                <h2>Louis Peter</h2>
+                <p>A 32 years old living in Frankfrurt am Main with passion of Technolgy and Web Development</p>
+                <a href="https://github.com/louisclarencepeter" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/louisclarencepeter/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+            </div>
         </section>
 
-        <!-- Skills Section -->
-        <section class="icons">
-            <a href="https://en.wikipedia.org/wiki/HTML" target="_blank" rel="noopener noreferrer" class="icon" aria-label="Learn more about HTML on Wikipedia">
-                <i class="fa-brands fa-html5"></i>
-                <p>HTML</p>
-            </a>
-            <a href="https://en.wikipedia.org/wiki/CSS" target="_blank" rel="noopener noreferrer" class="icon" aria-label="Learn more about CSS on Wikipedia">
-                <i class="fa-brands fa-css3-alt"></i>
-                <p>CSS</p>
-            </a>
-            <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" rel="noopener noreferrer" class="icon" aria-label="Learn more about JavaScript on Wikipedia">
-                <i class="fa-brands fa-js-square"></i>
-                <p>JavaScript</p>
-            </a>
+        <!-- School-->
+        <section>
+            <div class="info">
+                <img src="./images/DCI_COLORS_June24_logo_wordmark_blue.svg" alt="my school">
+                <h2>Education</h2>
+                <p>2022 - Present</p>
+                <p>Full Stack Web Development</p>
+                <p>Digital Career Institute</p>
+            </div>
         </section>
-
+        <!-- My Progress -->
+        <section>
+            <div class="info">
+                <img src="./images/image01.jpg" alt="my Progress">
+                <h2>My Skills</h2>
+                <p>HTML: 90%</p>
+                <p>CSS: 80%</p>
+                <p>JavaScript: 40%</p>
+            </div>
+        </section>
     </main>
 
     <!-- Footer -->
@@ -66,8 +71,9 @@
             <p>© 2023 Louis Peter</p> <a href="./impressum.html">Impressum</a>
         </div>
         <div>
-            <a href="https://github.com/louisclarencepeter" target="_blank" rel="noopener noreferrer" aria-label="Visit Louis Peter's GitHub profile"><i class="fa-brands fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/louisclarencepeter/" target="_blank" rel="noopener noreferrer" aria-label="Visit Louis Peter's LinkedIn profile"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/louisclarencepeter" target="_blank" aria-label="my git hub profile"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/louisclarencepeter/" target="_blank" aria-label="my linkedin profile"><i
+                    class="fa-brands fa-linkedin"></i></a>
         </div>
     </footer>
 
