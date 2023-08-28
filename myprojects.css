@@ -279,11 +279,6 @@ footer p {
 
 @media screen and (min-width: 1721px) {
 
-    body {
-        width: 60vw;
-        margin: 0 auto;
-    }
-
     main {
         height: 85vh;
     }
