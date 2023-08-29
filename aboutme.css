@@ -137,31 +137,83 @@ footer p {
 
 section:hover {
     cursor: pointer;
-    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    -webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
-@-webkit-keyframes scale-up-center {
+
+
+@-webkit-keyframes shadow-drop-center {
     0% {
-        -webkit-transform: scale(0.5);
-        transform: scale(0.5);
+        -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
     }
 
     100% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
+        -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
     }
 }
 
-@keyframes scale-up-center {
+@keyframes shadow-drop-center {
     0% {
-        -webkit-transform: scale(0.5);
-        transform: scale(0.5);
+        -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
     }
 
     100% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
+        -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    }
+}
+
+@media screen and (min-width: 320px) {
+    
+    header {
+        height: 3rem;
+    }
+
+    header img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    a {
+        font-size: 0.7rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    p {
+        font-size: 0.5rem;
+    }
+
+    .icons i {
+        font-size: 2rem;
+    }
+
+    .icons p {
+        font-size: 1rem;
+    }
+
+    footer {
+        height: 3rem;
+    }
+
+    footer p {
+        font-size: 0.7rem;
+        font-weight: 400;
+        margin: 0;
+    }
+
+    footer div a {
+        font-size: 0.7rem;
+    }
+
+    footer i {
+        font-size: 1rem;
     }
 }
 
@@ -171,7 +223,7 @@ section:hover {
         align-items: center;
         justify-content: space-evenly;
         gap: 1rem;
-        height: 87vh;
+        height: 89vh;
     }
 
     article {
@@ -189,7 +241,7 @@ section:hover {
     }
 
     footer i {
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding: 0 1rem;
     }
 }
