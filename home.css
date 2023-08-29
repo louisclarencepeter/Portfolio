@@ -303,7 +303,7 @@ footer p {
 
 @media screen and (min-width: 768px) {
     main {
-        height: 89vh;
+        height: 88vh;
         flex-direction: row;
         gap: 1rem;
     }
@@ -330,13 +330,13 @@ footer p {
 
 @media screen and (min-width: 1024px) {
     body {
-        width: 80vw;
+        width: 90vw;
     }
 
     main {
         flex-direction: row;
         gap: 1rem;
-        height: 78vh;
+        height: 92vh;
     }
 
     article {
@@ -372,6 +372,33 @@ footer p {
         height: 92vh;
     }
 
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    article {
+        padding: 5rem;
+    }
+
+    .icons {
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 2rem;
+    }
+
+    .icons i {
+        padding: 1rem;
+        font-size: 4rem;
+    }
+
+    .icons p {
+        font-size: 1.5rem;
+    }
+
     footer {
         height: 4rem;
     }
@@ -403,11 +430,63 @@ footer p {
 }
 
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1279px) {
+
+    header {
+        height: 4rem;
+    }
+
+    header a {
+        font-size: 1rem;
+    }
+
+    header img {
+        width: 2rem;
+        height: 2rem;
+    }
 
     main {
-        height: 83vh;
+        height: 82vh;
     }
+
+    a {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .icons p {
+        font-size: 1.5rem;
+    }
+
+    .icons i {
+        font-size: 3rem;
+        padding: 1rem;
+    }
+
+    footer {
+        height: 4rem;
+    }
+
+    footer p {
+        font-size: 1rem;
+    }
+
+    footer a {
+        font-size: 1rem;
+    }
+
+    footer i {
+        font-size: 1.5rem;
+        padding: 0 1rem;
+    }
+
 }
 
 @media screen and (min-width: 1440px) {
