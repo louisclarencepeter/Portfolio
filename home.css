@@ -496,7 +496,7 @@ footer p {
     }
 
     main {
-        height: 84vh;
+        height: 80vh;
         flex-direction: row;
         gap: 1rem;
     }
@@ -557,13 +557,8 @@ footer p {
 
 @media screen and (min-width: 1721px) {
 
-    body {
-        width: 90vw;
-        margin: 0 auto;
-    }
-
     main {
-        height: 87vh;
+        height: 85vh;
     }
 }
 
@@ -571,11 +566,11 @@ footer p {
 @media screen and (min-width: 1921px) {
 
     body {
-        width: 60vw;
+        width: 80vw;
         margin: 0 auto;
     }
 
     main {
-        height: 88vh;
+        height: 87vh;
     }
 }
