@@ -346,15 +346,15 @@ footer p {
     }
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 374px) {
     main {
-        height: 72vh;
+        height: 73vh;
     }
 }
 
 @media screen and (min-width: 389px) {
     main {
-        height: 74vh;
+        height: 75vh;
     }
 }
 
