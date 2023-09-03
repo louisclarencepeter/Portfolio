@@ -106,6 +106,16 @@ footer p {
     justify-content: center;
     align-items: center;
     padding: 1rem;
+    opacity: 0;
+    filter: blur(4px);
+    animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+@keyframes fade-in {
+    100% {
+        opacity: 1;
+        filter: blur(0);
+    }
 }
 
 .projects img {
@@ -121,7 +131,7 @@ footer p {
     padding: 0.625rem;
 }
 
-.projects:hover {
+.projects img:hover {
     cursor: pointer;
     -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
