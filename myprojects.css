@@ -5,17 +5,12 @@
 @font-face {
     font-family: 'Space Mono';
     src: url(./fonts/SpaceMono-Regular.ttf) format('truetype');
-    ;
 }
 
 :root {
     font-size: calc(1rem + 0.5vw, 1.5rem);
     font-family: 'Space Mono', monospace;
     color: #fffffe;
-}
-
-html {
-    display: block;
 }
 
 body {
@@ -78,7 +73,6 @@ h2 {
     text-align: center;
 }
 
-
 footer {
     display: flex;
     justify-content: space-between;
@@ -111,6 +105,13 @@ footer p {
     animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
+.personal {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+
 @keyframes fade-in {
     100% {
         opacity: 1;
@@ -133,33 +134,18 @@ footer p {
 
 .projects img:hover {
     cursor: pointer;
-    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-}
-
-@-webkit-keyframes scale-up-center {
-    0% {
-        -webkit-transform: scale(0.5);
-        transform: scale(0.5);
-    }
-
-    100% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
 }
 
 @keyframes scale-up-center {
     0% {
-        -webkit-transform: scale(0.5);
         transform: scale(0.5);
     }
-
     100% {
-        -webkit-transform: scale(1);
         transform: scale(1);
     }
 }
+
 
 @media screen and (min-width: 320px) {
 
@@ -213,11 +199,10 @@ footer p {
 
 @media screen and (min-width: 768px) {
     main {
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
         gap: 1rem;
-        height: 88vh;
     }
 
     article {
@@ -228,6 +213,14 @@ footer p {
         flex-direction: row;
         justify-content: space-evenly;
         padding: 2rem;
+    }
+
+    .personal {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .personal .projects:last-child {
+        grid-column: 1 / -1;
     }
 
     section i {
@@ -247,11 +240,10 @@ footer p {
     }
 
     main {
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
         gap: 1rem;
-        height: 92vh;
     }
 
     header {
@@ -324,10 +316,6 @@ footer p {
     header img {
         width: 2rem;
         height: 2rem;
-    }
-
-    main {
-        height: 82vh;
     }
 
     a {
